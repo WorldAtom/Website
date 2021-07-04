@@ -1,0 +1,302 @@
+html { 
+	overflow-y: hidden; 
+	overflow-x: hidden;
+} 
+body {
+	background-color: #f0f9ff;
+}
+.card1 {
+	position: absolute;
+	top: -10px;
+	left: -5px;
+	height: 400px;
+	width: 300px;
+	background-color: #ffffff;
+	transform: rotateZ(25deg);
+	border-radius: 30px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+	transition: 0.4s;
+}
+.card1:hover {
+	transform: translateY(-15px) rotateZ(25deg);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.02);
+}
+.card1 img {
+	opacity: 0;
+  	width: inherit;
+  	height: inherit;
+  	border-radius: 30px;
+  	object-fit: cover;
+	transition: 0.4s;
+}
+.card1 img:hover {
+	opacity: 100;
+}
+.card2 {
+	position: absolute;
+	top: -400px;
+	left: 180px;
+	height: 400px;
+	width: 300px;
+	background-color: #ffffff;
+	transform: rotateZ(25deg);
+	border-radius: 30px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+	transition: 0.4s;
+}
+.card2:hover {
+	transform: translateY(-15px) rotateZ(25deg);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.07);
+}
+.card3 {
+	position: absolute;
+	top: 380px;
+	left: -200px;
+	height: 400px;
+	width: 300px;
+	background-color: #ffffff;
+	transform: rotateZ(25deg);
+	border-radius: 30px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+	transition: 0.4s;
+}
+.card3:hover {
+	transform: translateY(-15px) rotateZ(25deg);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.01);
+}
+.card4 {
+	position: absolute;
+	top: 350px;
+	left: 205px;
+	height: 400px;
+	width: 300px;
+	background-color: #ffffff;
+	transform: rotateZ(25deg);
+	border-radius: 30px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+	transition: 0.4s;
+}
+.card4:hover {
+	transform: translateY(-15px) rotateZ(25deg);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.02);
+}
+.card4 img {
+	opacity: 0;
+  	width: inherit;
+  	height: inherit;
+  	border-radius: 30px;
+  	object-fit: cover;
+	transition: 0.4s;
+}
+.card4 img:hover {
+	opacity: 100;
+}
+.card5 {
+	position: absolute;
+	top: -45px;
+	left: 385px;
+	height: 400px;
+	width: 300px;
+	background-color: #ffffff;
+	transform: rotateZ(25deg);
+	border-radius: 30px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+	transition: 0.4s;
+}
+.card5:hover {
+	transform: translateY(-15px) rotateZ(25deg);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.02);
+}
+.card5 img {
+	opacity: 0;
+  	width: inherit;
+  	height: inherit;
+  	border-radius: 30px;
+  	object-fit: cover;
+	transition: 0.4s;
+}
+.card5 img:hover {
+	opacity: 100;
+}
+.card6 {
+	position: absolute;
+	top: 255px;
+	left: 625px;
+	height: 400px;
+	width: 300px;
+	background-color: #ffffff;
+	transform: rotateZ(25deg);
+	border-radius: 30px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+	transition: 0.4s;
+}
+.card6:hover {
+	transform: translateY(-15px) rotateZ(25deg);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.02);
+}
+.card6 img {
+	opacity: 0;
+  	width: inherit;
+  	height: inherit;
+  	border-radius: 30px;
+  	object-fit: cover;
+	transition: 0.4s;
+}
+.card6 img:hover {
+	opacity: 100;
+}
+.card7 {
+	position: absolute;
+	top: 650px;
+	left: 440px;
+	height: 400px;
+	width: 300px;
+	background-color: #ffffff;
+	transform: rotateZ(25deg);
+	border-radius: 30px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+	transition: 0.4s;
+}
+.card7:hover {
+	transform: translateY(-15px) rotateZ(25deg);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.02);
+}
+.card7 img {
+	opacity: 0;
+  	width: inherit;
+  	height: inherit;
+  	border-radius: 30px;
+  	object-fit: cover;
+	transition: 0.4s;
+}
+.card7 img:hover {
+	opacity: 100;
+}
+.card8 {
+	position: absolute;
+	top: -140px;
+	left: 810px;
+	height: 400px;
+	width: 300px;
+	background-color: #ffffff;
+	transform: rotateZ(25deg);
+	border-radius: 30px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+	transition: 0.4s;
+}
+.card8:hover {
+	transform: translateY(-15px) rotateZ(25deg);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.02);
+}
+.card8 img {
+	opacity: 0;
+  	width: inherit;
+  	height: inherit;
+  	border-radius: 30px;
+  	object-fit: cover;
+	transition: 0.4s;
+}
+.card8 img:hover {
+	opacity: 100;
+}
+
+.card9 {
+	position: absolute;
+	top: 480px;
+	left: 902px;
+	height: 400px;
+	width: 300px;
+	background-color: #ffffff;
+	transform: rotateZ(25deg);
+	border-radius: 30px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+	transition: 0.4s;
+}
+.card9:hover {
+	transform: translateY(-15px) rotateZ(25deg);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.02);
+}
+.card9 img {
+	opacity: 0;
+  	width: inherit;
+  	height: inherit;
+  	border-radius: 30px;
+  	object-fit: cover;
+	transition: 0.4s;
+}
+.card9 img:hover {
+	opacity: 100;
+}
+.card10 {
+	position: absolute;
+	top: 85px;
+	left: 1080px;
+	height: 400px;
+	width: 300px;
+	background-color: #ffffff;
+	transform: rotateZ(25deg);
+	border-radius: 30px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+	transition: 0.4s;
+}
+.card10:hover {
+	transform: translateY(-15px) rotateZ(25deg);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.02);
+}
+.card10 img {
+	opacity: 0;
+  	width: inherit;
+  	height: inherit;
+  	border-radius: 30px;
+  	object-fit: cover;
+	transition: 0.4s;
+}
+.card10 img:hover {
+	opacity: 100;
+}
+.card11 {
+	position: absolute;
+	top: -307px;
+	left: 1250px;
+	height: 400px;
+	width: 300px;
+	background-color: #ffffff;
+	transform: rotateZ(25deg);
+	border-radius: 30px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+	transition: 0.4s;
+}
+.card11:hover {
+	transform: translateY(-15px) rotateZ(25deg);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.02);
+}
+.cards:hover div:not(:hover) {
+	filter: brightness(0.84) saturate(1) contrast(200%) blur(15px) ;
+}
+.music{
+	position: absolute;
+	top: 480px;
+	right: -60px;
+	height: 90px;
+	width: 100px;
+	border-radius: 45px;
+	background: #ffffff;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+	transition: 0.4s;
+}
+.music:hover{
+	background-color: #FF4747  ;
+	transform: translateX(-15px) ; 
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.02);
+}
+.music a {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 90px;
+	width: 100px;
+	border-radius: 45px;
+	background: transparent;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+	transition: 0.4s;
+}

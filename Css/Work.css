@@ -1,0 +1,169 @@
+body {
+  background-color: #E2EFF8;
+}
+html { 
+	overflow-y: hidden; 
+	overflow-x: hidden;
+} 
+.games {
+	position: absolute;
+	top: 110px;
+	right: 40px;
+	height: 500px;
+	width: 700px;
+	border-radius: 45px;
+	background-color: #ffffff;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+	transition: 0.3s;
+}
+.games:hover {
+	transform: translateY(-15px);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.02);
+}
+.games a {
+	position: absolute;
+	top: 30px;
+	right: 40px;
+	height: 500px;
+	width: 700px;
+	border-radius: 45px;
+	background-color: transparent;
+	transition: 0.3s;
+}
+.games img {
+	width: 700px;
+  	height: 500px;
+  	border-radius: 45px;
+  	object-fit: cover;
+	transition: 0.4s;
+}
+.projects {
+	position: absolute;
+	top: 110px;
+	left: 40px;
+	height: 500px;
+	width: 700px;
+	border-radius: 45px;
+	background-color: #ffffff;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+	transition: 0.3s;
+	cursor: pointer;
+}
+.projects:hover  {
+	transform: translateY(-15px);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.02);
+}
+.projects img{
+	width: 700px;
+  	height: 500px;
+  	border-radius: 45px;
+  	object-fit: cover;
+	transition: 0.4s;
+}
+.info {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 110px;
+	left: 330px;
+	height: 250px;
+	width: 350px;
+	border-radius: 45px;
+	background-color: #ffffff;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+	transition: 0.3s;
+}
+.info:hover{
+	transform: translateY(-15px);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.02);
+}
+.info .identifiant {
+	position: absolute;
+	top: 25px;
+	left: 30px;
+	height: 80px;
+	width: 290px;
+	border-radius: 25px;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+}
+.info .identifiant p {
+	position: absolute;
+	left: 75px;
+	font-family: "Space Grotesk", sans-serif;
+	font-size: 1.8em;
+  	font-weight: 700;
+  	cursor: pointer;
+}
+.info .password p {
+	position: absolute;
+	left: 55px;
+	font-family: "Space Grotesk", sans-serif;
+	font-size: 1.8em;
+  	font-weight: 700;
+  	cursor: pointer;
+}
+.info .password {
+	position: absolute;
+	top: 135px;
+	left: 30px;
+	height: 80px;
+	width: 290px;
+	border-radius: 25px;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+}
+.user{
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 400px;
+	left: 330px;
+	height: 180px;
+	width: 140px;
+	border-radius: 45px;
+	background-color: #ffffff;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+	transition: 0.3s;
+}
+.user:hover{
+	transform: translateY(-15px);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.02);
+}
+.user img {
+	opacity: 80%;
+	position: absolute;
+	top: 30px;
+	left: 18px;
+	height: 105px;
+	width: 105px;
+}
+.go {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 440px;
+	left: 520px;
+	height: 120px;
+	width: 120px;
+	border-radius: 90px;
+	background-color: #ffffff;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+	transition: 0.3s;
+}
+.go:hover{
+	transform: translateY(-15px);
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.09), -5px -5px 30px 7px rgba(0,0,0,0.02);
+
+}
+.go img{
+	opacity: 80%;
+	position: absolute;
+	top: 23px;
+	right:20px;
+	height: 69px;
+	width: 76px;
+	border-radius: 90px;
+}
+.container:hover div:not(:hover){
+	filter: brightness(0.9) saturate(0) contrast(1.2) blur(20px);
+}
+
