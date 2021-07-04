@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>Work</title>
+<head>
+	<link rel="stylesheet" type="text/css" href="Css/Work.css">
+</head>
+<body>
+  <div class="container">
+    <div class="projects" id="projects" onclick="Main();">
+      <img src="Ressources/Images/project.png" id="img">
+    </div>
+    <div class="games">
+      <img src="Ressources/Images/game.png">
+      <a href="game.html" target="_self"></a>
+    </div>    
+  <div class="info" id="info">
+    <div class="identifiant">
+      <p>Identifiant</p>
+    </div>
+    <div class="password">
+      <p>Mot de passe</p>
+    </div>
+  </div>
+  <div class="user" id="user">
+   <img src="Ressources/Images/user.png"> 
+  </div>
+  <div class="go" id="go">
+   <img src="Ressources/Images/go.png"> 
+  </div>
+  </div>
+  <script type="text/javascript">
+      var img = document.getElementById('img');
+      var button = document.getElementById('projects');
+      var contain = document.getElementById("info");
+      var user = document.getElementById('user');
+      var go = document.getElementById("go");
+      function onclick2(){
+      button.onclick = function(){
+        button.style.width = "250px";
+        img.style.width = "250px";
+        setTimeout(() => {
+        user.style.opacity = "100";
+        contain.style.opacity = "100";
+        go.style.opacity = "100";
+        user.style.visibility = "visible";
+        contain.style.visibility = "visible";
+        go.style.visibility = "visible";                
+      }, 250);
+        onclick1();
+      }
+    }
+      function onclick1(){
+      button.onclick = function(){
+        contain.style.opacity = "0";
+        user.style.opacity = "0";
+        go.style.opacity = "0";
+        user.style.visibility = "hidden";
+        contain.style.visibility = "hidden";
+        go.style.visibility = "hidden";
+        setTimeout(() => {
+        img.style.width = "700px";
+        }, 50); 
+        setTimeout(() => {
+        button.style.width = "700px";
+      }, 250);
+       onclick2();
+      }
+    }
+    function Main() {
+      button.style.width = "250px";
+      img.style.width = "250px";
+      setTimeout(() => {
+        user.style.opacity = "100";
+        go.style.opacity = "100";
+        contain.style.opacity = "100";
+        user.style.visibility = "visible";
+        contain.style.visibility = "visible";
+        go.style.visibility = "visible";   
+      }, 250);
+      onclick1();
+    }
+  </script>
+</body>
+</html>

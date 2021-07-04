@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Games</title>
+    <link rel="stylesheet" href="Css/contenu.css">
+    <link rel="stylesheet" href="Css/docSlider.css">
+  </head>
+  <body>
+    <script>
+      function lancement()
+      {
+        var first_card = document.getElementById('principal_card')
+         first_card.style.height = "650px";
+         first_card.style.width = "300px";
+         setTimeout(() => { 
+            list = document.getElementsByClassName("box1");
+         if (list) 
+         {
+          for (var x = 0; x < list.length; x++) 
+          {
+          list[x].style.opacity = "100";
+          }
+         }
+          list2 = document.getElementsByClassName("box2");
+         if (list2) 
+         {
+          for (var x = 0; x < list2.length; x++) 
+          {
+          list2[x].style.opacity = "100";
+          }
+         }
+         list3 = document.getElementsByClassName("box3");
+         if (list3) 
+         {
+          for (var x = 0; x < list3.length; x++) 
+          {
+            list3[x].style.opacity = "100";
+          }
+         }
+         list4 = document.getElementsByClassName("box4");
+         if (list4) 
+         {
+          for (var x = 0; x < list4.length; x++) 
+          {
+          list4[x].style.opacity = "100";
+          }
+         }
+         list5 = document.getElementsByClassName("box5");
+         if (list5) 
+         {
+          for (var x = 0; x < list5.length; x++) 
+          {
+          list5[x].style.opacity = "100";
+          }
+         }
+         list6 = document.getElementsByClassName("box6");
+         if (list6) 
+         {
+          for (var x = 0; x < list6.length; x++) 
+          {
+          list6[x].style.opacity = "100";
+          }
+         }
+         list7 = document.getElementsByClassName("box7");
+         if (list7) 
+         {
+          for (var x = 0; x < list7.length; x++) 
+          {
+          list7[x].style.opacity = "100";
+          }
+         }}, 750);
+         click2();
+      }
+      function click1()
+      {
+         var first_card = document.getElementById('principal_card')
+         first_card.onclick = function(){
+         first_card.style.height = "650px";
+         first_card.style.width = "300px";
+         setTimeout(() => { 
+            list = document.getElementsByClassName("box1");
+         if (list) 
+         {
+          for (var x = 0; x < list.length; x++) 
+          {
+          list[x].style.opacity = "100";
+          }
+         }
+          list2 = document.getElementsByClassName("box2");
+         if (list2) 
+         {
+          for (var x = 0; x < list2.length; x++) 
+          {
+          list2[x].style.opacity = "100";
+          }
+         }
+         list3 = document.getElementsByClassName("box3");
+         if (list3) 
+         {
+          for (var x = 0; x < list3.length; x++) 
+          {
+            list3[x].style.opacity = "100";
+          }
+         }
+         list4 = document.getElementsByClassName("box4");
+         if (list4) 
+         {
+          for (var x = 0; x < list4.length; x++) 
+          {
+          list4[x].style.opacity = "100";
+          }
+         }
+         list5 = document.getElementsByClassName("box5");
+         if (list5) 
+         {
+          for (var x = 0; x < list5.length; x++) 
+          {
+          list5[x].style.opacity = "100";
+          }
+         }
+         list6 = document.getElementsByClassName("box6");
+         if (list6) 
+         {
+          for (var x = 0; x < list6.length; x++) 
+          {
+          list6[x].style.opacity = "100";
+          }
+         }
+         list7 = document.getElementsByClassName("box7");
+         if (list7) 
+         {
+          for (var x = 0; x < list7.length; x++) 
+          {
+          list7[x].style.opacity = "100";
+          }
+         }}, 750);
+         click2();}
+       }
+
+         function click2(){
+        var first_card = document.getElementById('principal_card')
+         first_card.onclick = function(){
+          list = document.getElementsByClassName("box1");
+         if (list) 
+         {
+          for (var x = 0; x < list.length; x++) 
+          {
+          list[x].style.opacity = "0";
+          }
+         }
+          list2 = document.getElementsByClassName("box2");
+         if (list2) 
+         {
+          for (var x = 0; x < list2.length; x++) 
+          {
+          list2[x].style.opacity = "0";
+          }
+         }
+         list3 = document.getElementsByClassName("box3");
+         if (list3) 
+         {
+          for (var x = 0; x < list3.length; x++) 
+          {
+            list3[x].style.opacity = "0";
+          }
+         }
+         list4 = document.getElementsByClassName("box4");
+         if (list4) 
+         {
+          for (var x = 0; x < list4.length; x++) 
+          {
+          list4[x].style.opacity = "0";
+          }
+         }
+         list5 = document.getElementsByClassName("box5");
+         if (list5) 
+         {
+          for (var x = 0; x < list5.length; x++) 
+          {
+          list5[x].style.opacity = "0";
+          }
+         }
+         list6 = document.getElementsByClassName("box6");
+         if (list6) 
+         {
+          for (var x = 0; x < list6.length; x++) 
+          {
+          list6[x].style.opacity = "0";
+          }
+         }
+         list7 = document.getElementsByClassName("box7");
+         if (list7) 
+         {
+          for (var x = 0; x < list7.length; x++) 
+          {
+          list7[x].style.opacity = "0";
+          }
+         }
+         setTimeout (() => { 
+            first_card.style.height = "650px";
+            first_card.style.width = "1200px";
+          }, 500)
+         click1();
+         }
+       };       
+    </script>
+
+  	<div class="docSlider">
+
+    <section>  
+
+     <div class="inner"></div>
+        <div class="card" id="principal_card" onclick="click1();">
+      <div class="card_image" > <img src="Ressources/Assets/1.png"/></div>
+      </div>
+
+      <div class="card_info" id="card_show">
+        <div class="box1">
+          <img src="Ressources/Assets/perso.png">
+        </div>
+        <div class="box2">
+          <div> <img src="Ressources/Assets/capture.png"> </div>
+        </div>
+        <div class="box3">
+          <span>60%</span>
+        </div>
+        <div class="box4">
+          <div> <img src="Ressources/Assets/logos.png"></div>
+        </div>
+        <div class="box5">
+          <div> <img src="Ressources/Assets/logo.png"></div>
+        </div>
+        <div class="box6">
+        </div>
+        <div class="box7">
+          <img src="Ressources/Assets/map2.png" class="1">
+        </div>
+    </div>
+    </section> 
+
+  </div>
+	<script src="Js/docSlider.min.js"></script>
+	<script>docSlider.init({vertical: true});</script>
+  </body>
+</html>
